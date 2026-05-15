@@ -3,33 +3,167 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		301210862FB725A10071B4BB /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 301210792FB725A10071B4BB /* privacy_policy.md */; };
+		301210872FB725A10071B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3012107C2FB725A10071B4BB /* Assets.xcassets */; };
+		301210892FB725A10071B4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301210802FB725A10071B4BB /* LaunchScreen.storyboard */; };
+		3012108A2FB725A10071B4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301210822FB725A10071B4BB /* Main.storyboard */; };
+		3012108B2FB725A10071B4BB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210222FB725A10071B4BB /* MainTabView.swift */; };
+		3012108C2FB725A10071B4BB /* AchievementCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210242FB725A10071B4BB /* AchievementCardCell.swift */; };
+		3012108D2FB725A10071B4BB /* FocusSessionCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210252FB725A10071B4BB /* FocusSessionCardCell.swift */; };
+		3012108E2FB725A10071B4BB /* HabitCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210262FB725A10071B4BB /* HabitCardCell.swift */; };
+		3012108F2FB725A10071B4BB /* SettingsRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210272FB725A10071B4BB /* SettingsRowCell.swift */; };
+		301210902FB725A10071B4BB /* TaskCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210282FB725A10071B4BB /* TaskCardCell.swift */; };
+		301210912FB725A10071B4BB /* AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012102A2FB725A10071B4BB /* AppCard.swift */; };
+		301210922FB725A10071B4BB /* AppDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012102B2FB725A10071B4BB /* AppDesignSystem.swift */; };
+		301210932FB725A10071B4BB /* AppSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012102C2FB725A10071B4BB /* AppSearchBar.swift */; };
+		301210942FB725A10071B4BB /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012102D2FB725A10071B4BB /* EmptyStateView.swift */; };
+		301210952FB725A10071B4BB /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012102E2FB725A10071B4BB /* FilterChip.swift */; };
+		301210962FB725A10071B4BB /* IconBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012102F2FB725A10071B4BB /* IconBadge.swift */; };
+		301210972FB725A10071B4BB /* MetaTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210302FB725A10071B4BB /* MetaTag.swift */; };
+		301210982FB725A10071B4BB /* AchievementBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210322FB725A10071B4BB /* AchievementBannerView.swift */; };
+		301210992FB725A10071B4BB /* AppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210332FB725A10071B4BB /* AppBackgroundView.swift */; };
+		3012109A2FB725A10071B4BB /* DailyGoalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210342FB725A10071B4BB /* DailyGoalProgressView.swift */; };
+		3012109B2FB725A10071B4BB /* LightTapButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210352FB725A10071B4BB /* LightTapButtonStyle.swift */; };
+		3012109C2FB725A10071B4BB /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210362FB725A10071B4BB /* ShakeEffect.swift */; };
+		3012109D2FB725A10071B4BB /* SuccessCheckmarkOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210372FB725A10071B4BB /* SuccessCheckmarkOverlay.swift */; };
+		3012109E2FB725A10071B4BB /* UndoToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210382FB725A10071B4BB /* UndoToastView.swift */; };
+		3012109F2FB725A10071B4BB /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012103A2FB725A10071B4BB /* AppExternalLink.swift */; };
+		301210A02FB725A10071B4BB /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012103C2FB725A10071B4BB /* Color+App.swift */; };
+		301210A12FB725A10071B4BB /* Notification+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012103D2FB725A10071B4BB /* Notification+App.swift */; };
+		301210A22FB725A10071B4BB /* AchievementDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012103F2FB725A10071B4BB /* AchievementDefinition.swift */; };
+		301210A32FB725A10071B4BB /* FocusSessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210402FB725A10071B4BB /* FocusSessionRecord.swift */; };
+		301210A42FB725A10071B4BB /* HabitGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210412FB725A10071B4BB /* HabitGroup.swift */; };
+		301210A52FB725A10071B4BB /* HabitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210422FB725A10071B4BB /* HabitItem.swift */; };
+		301210A62FB725A10071B4BB /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210432FB725A10071B4BB /* TaskItem.swift */; };
+		301210A72FB725A10071B4BB /* TaskRecurrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210442FB725A10071B4BB /* TaskRecurrence.swift */; };
+		301210A82FB725A10071B4BB /* TimerPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210452FB725A10071B4BB /* TimerPreset.swift */; };
+		301210A92FB725A10071B4BB /* AchievementBannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210472FB725A10071B4BB /* AchievementBannerManager.swift */; };
+		301210AA2FB725A10071B4BB /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210482FB725A10071B4BB /* AppDataStore.swift */; };
+		301210AB2FB725A10071B4BB /* AppDataStore+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210492FB725A10071B4BB /* AppDataStore+Home.swift */; };
+		301210AC2FB725A10071B4BB /* AppDataStore+Productivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012104A2FB725A10071B4BB /* AppDataStore+Productivity.swift */; };
+		301210AD2FB725A10071B4BB /* FeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012104B2FB725A10071B4BB /* FeedbackService.swift */; };
+		301210AE2FB725A10071B4BB /* StatisticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012104C2FB725A10071B4BB /* StatisticsService.swift */; };
+		301210AF2FB725A10071B4BB /* FocusPresetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012104F2FB725A10071B4BB /* FocusPresetCard.swift */; };
+		301210B02FB725A10071B4BB /* FocusTimerHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210502FB725A10071B4BB /* FocusTimerHero.swift */; };
+		301210B12FB725A10071B4BB /* FocusSettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210522FB725A10071B4BB /* FocusSettingsSheet.swift */; };
+		301210B22FB725A10071B4BB /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210532FB725A10071B4BB /* FocusView.swift */; };
+		301210B32FB725A10071B4BB /* FocusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210542FB725A10071B4BB /* FocusViewModel.swift */; };
+		301210B42FB725A10071B4BB /* FocusHabitsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210562FB725A10071B4BB /* FocusHabitsContainerView.swift */; };
+		301210B52FB725A10071B4BB /* AddHabitSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210582FB725A10071B4BB /* AddHabitSheet.swift */; };
+		301210B62FB725A10071B4BB /* HabitJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210592FB725A10071B4BB /* HabitJournalView.swift */; };
+		301210B72FB725A10071B4BB /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012105A2FB725A10071B4BB /* HabitsView.swift */; };
+		301210B82FB725A10071B4BB /* HabitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012105B2FB725A10071B4BB /* HabitsViewModel.swift */; };
+		301210B92FB725A10071B4BB /* HomeAchievementWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012105D2FB725A10071B4BB /* HomeAchievementWidget.swift */; };
+		301210BA2FB725A10071B4BB /* HomeGoalWidgetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012105E2FB725A10071B4BB /* HomeGoalWidgetCard.swift */; };
+		301210BB2FB725A10071B4BB /* HomeHeroBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012105F2FB725A10071B4BB /* HomeHeroBanner.swift */; };
+		301210BC2FB725A10071B4BB /* HomeInsightWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210602FB725A10071B4BB /* HomeInsightWidget.swift */; };
+		301210BD2FB725A10071B4BB /* HomeUpNextSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210612FB725A10071B4BB /* HomeUpNextSection.swift */; };
+		301210BE2FB725A10071B4BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210632FB725A10071B4BB /* HomeView.swift */; };
+		301210BF2FB725A10071B4BB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210652FB725A10071B4BB /* OnboardingView.swift */; };
+		301210C02FB725A10071B4BB /* WeeklyReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210672FB725A10071B4BB /* WeeklyReportView.swift */; };
+		301210C12FB725A10071B4BB /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210692FB725A10071B4BB /* PrivacyPolicyView.swift */; };
+		301210C22FB725A10071B4BB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012106A2FB725A10071B4BB /* SettingsView.swift */; };
+		301210C32FB725A10071B4BB /* StatsAchievementsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012106B2FB725A10071B4BB /* StatsAchievementsSection.swift */; };
+		301210C42FB725A10071B4BB /* PeriodStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012106D2FB725A10071B4BB /* PeriodStatsView.swift */; };
+		301210C52FB725A10071B4BB /* ArchivedTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012106F2FB725A10071B4BB /* ArchivedTasksView.swift */; };
+		301210C62FB725A10071B4BB /* CompletedTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210702FB725A10071B4BB /* CompletedTasksView.swift */; };
+		301210C72FB725A10071B4BB /* SingleTaskModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210712FB725A10071B4BB /* SingleTaskModeView.swift */; };
+		301210C82FB725A10071B4BB /* TaskFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210722FB725A10071B4BB /* TaskFilterSheet.swift */; };
+		301210C92FB725A10071B4BB /* TaskFormSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210732FB725A10071B4BB /* TaskFormSheet.swift */; };
+		301210CA2FB725A10071B4BB /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210742FB725A10071B4BB /* TasksView.swift */; };
+		301210CB2FB725A10071B4BB /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210752FB725A10071B4BB /* TasksViewModel.swift */; };
+		301210CC2FB725A10071B4BB /* TaskTemplatesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210762FB725A10071B4BB /* TaskTemplatesSheet.swift */; };
+		301210CD2FB725A10071B4BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012107B2FB725A10071B4BB /* AppDelegate.swift */; };
+		301210CE2FB725A10071B4BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012107D2FB725A10071B4BB /* ContentView.swift */; };
+		301210CF2FB725A10071B4BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210832FB725A10071B4BB /* SceneDelegate.swift */; };
+		301210D02FB725A10071B4BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301210842FB725A10071B4BB /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		0E57D6E227368B6BB2C85C0C /* Pods_164VeltroniaDreamsync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_164VeltroniaDreamsync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30120DBA2FB705100071B4BB /* 164VeltroniaDreamsync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 164VeltroniaDreamsync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		301210222FB725A10071B4BB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		301210242FB725A10071B4BB /* AchievementCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCardCell.swift; sourceTree = "<group>"; };
+		301210252FB725A10071B4BB /* FocusSessionCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionCardCell.swift; sourceTree = "<group>"; };
+		301210262FB725A10071B4BB /* HabitCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCardCell.swift; sourceTree = "<group>"; };
+		301210272FB725A10071B4BB /* SettingsRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowCell.swift; sourceTree = "<group>"; };
+		301210282FB725A10071B4BB /* TaskCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardCell.swift; sourceTree = "<group>"; };
+		3012102A2FB725A10071B4BB /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCard.swift; sourceTree = "<group>"; };
+		3012102B2FB725A10071B4BB /* AppDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDesignSystem.swift; sourceTree = "<group>"; };
+		3012102C2FB725A10071B4BB /* AppSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSearchBar.swift; sourceTree = "<group>"; };
+		3012102D2FB725A10071B4BB /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		3012102E2FB725A10071B4BB /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
+		3012102F2FB725A10071B4BB /* IconBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBadge.swift; sourceTree = "<group>"; };
+		301210302FB725A10071B4BB /* MetaTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaTag.swift; sourceTree = "<group>"; };
+		301210322FB725A10071B4BB /* AchievementBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerView.swift; sourceTree = "<group>"; };
+		301210332FB725A10071B4BB /* AppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundView.swift; sourceTree = "<group>"; };
+		301210342FB725A10071B4BB /* DailyGoalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoalProgressView.swift; sourceTree = "<group>"; };
+		301210352FB725A10071B4BB /* LightTapButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTapButtonStyle.swift; sourceTree = "<group>"; };
+		301210362FB725A10071B4BB /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		301210372FB725A10071B4BB /* SuccessCheckmarkOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessCheckmarkOverlay.swift; sourceTree = "<group>"; };
+		301210382FB725A10071B4BB /* UndoToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoToastView.swift; sourceTree = "<group>"; };
+		3012103A2FB725A10071B4BB /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		3012103C2FB725A10071B4BB /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		3012103D2FB725A10071B4BB /* Notification+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+App.swift"; sourceTree = "<group>"; };
+		3012103F2FB725A10071B4BB /* AchievementDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDefinition.swift; sourceTree = "<group>"; };
+		301210402FB725A10071B4BB /* FocusSessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionRecord.swift; sourceTree = "<group>"; };
+		301210412FB725A10071B4BB /* HabitGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitGroup.swift; sourceTree = "<group>"; };
+		301210422FB725A10071B4BB /* HabitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItem.swift; sourceTree = "<group>"; };
+		301210432FB725A10071B4BB /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		301210442FB725A10071B4BB /* TaskRecurrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRecurrence.swift; sourceTree = "<group>"; };
+		301210452FB725A10071B4BB /* TimerPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPreset.swift; sourceTree = "<group>"; };
+		301210472FB725A10071B4BB /* AchievementBannerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerManager.swift; sourceTree = "<group>"; };
+		301210482FB725A10071B4BB /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		301210492FB725A10071B4BB /* AppDataStore+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDataStore+Home.swift"; sourceTree = "<group>"; };
+		3012104A2FB725A10071B4BB /* AppDataStore+Productivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDataStore+Productivity.swift"; sourceTree = "<group>"; };
+		3012104B2FB725A10071B4BB /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
+		3012104C2FB725A10071B4BB /* StatisticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsService.swift; sourceTree = "<group>"; };
+		3012104F2FB725A10071B4BB /* FocusPresetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusPresetCard.swift; sourceTree = "<group>"; };
+		301210502FB725A10071B4BB /* FocusTimerHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerHero.swift; sourceTree = "<group>"; };
+		301210522FB725A10071B4BB /* FocusSettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSettingsSheet.swift; sourceTree = "<group>"; };
+		301210532FB725A10071B4BB /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		301210542FB725A10071B4BB /* FocusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewModel.swift; sourceTree = "<group>"; };
+		301210562FB725A10071B4BB /* FocusHabitsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusHabitsContainerView.swift; sourceTree = "<group>"; };
+		301210582FB725A10071B4BB /* AddHabitSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitSheet.swift; sourceTree = "<group>"; };
+		301210592FB725A10071B4BB /* HabitJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitJournalView.swift; sourceTree = "<group>"; };
+		3012105A2FB725A10071B4BB /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		3012105B2FB725A10071B4BB /* HabitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewModel.swift; sourceTree = "<group>"; };
+		3012105D2FB725A10071B4BB /* HomeAchievementWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAchievementWidget.swift; sourceTree = "<group>"; };
+		3012105E2FB725A10071B4BB /* HomeGoalWidgetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGoalWidgetCard.swift; sourceTree = "<group>"; };
+		3012105F2FB725A10071B4BB /* HomeHeroBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeroBanner.swift; sourceTree = "<group>"; };
+		301210602FB725A10071B4BB /* HomeInsightWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInsightWidget.swift; sourceTree = "<group>"; };
+		301210612FB725A10071B4BB /* HomeUpNextSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUpNextSection.swift; sourceTree = "<group>"; };
+		301210632FB725A10071B4BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		301210652FB725A10071B4BB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		301210672FB725A10071B4BB /* WeeklyReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyReportView.swift; sourceTree = "<group>"; };
+		301210692FB725A10071B4BB /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		3012106A2FB725A10071B4BB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3012106B2FB725A10071B4BB /* StatsAchievementsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsAchievementsSection.swift; sourceTree = "<group>"; };
+		3012106D2FB725A10071B4BB /* PeriodStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodStatsView.swift; sourceTree = "<group>"; };
+		3012106F2FB725A10071B4BB /* ArchivedTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivedTasksView.swift; sourceTree = "<group>"; };
+		301210702FB725A10071B4BB /* CompletedTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTasksView.swift; sourceTree = "<group>"; };
+		301210712FB725A10071B4BB /* SingleTaskModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTaskModeView.swift; sourceTree = "<group>"; };
+		301210722FB725A10071B4BB /* TaskFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFilterSheet.swift; sourceTree = "<group>"; };
+		301210732FB725A10071B4BB /* TaskFormSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormSheet.swift; sourceTree = "<group>"; };
+		301210742FB725A10071B4BB /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		301210752FB725A10071B4BB /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		301210762FB725A10071B4BB /* TaskTemplatesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTemplatesSheet.swift; sourceTree = "<group>"; };
+		301210792FB725A10071B4BB /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		3012107B2FB725A10071B4BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3012107C2FB725A10071B4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3012107D2FB725A10071B4BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3012107E2FB725A10071B4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3012107F2FB725A10071B4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		301210812FB725A10071B4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		301210832FB725A10071B4BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		301210842FB725A10071B4BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96E9641D1E043DE5AE888A6D /* Pods-164VeltroniaDreamsync.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-164VeltroniaDreamsync.release.xcconfig"; path = "Target Support Files/Pods-164VeltroniaDreamsync/Pods-164VeltroniaDreamsync.release.xcconfig"; sourceTree = "<group>"; };
+		FC2B4063BC2B7A1964EDC0D2 /* Pods-164VeltroniaDreamsync.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-164VeltroniaDreamsync.debug.xcconfig"; path = "Target Support Files/Pods-164VeltroniaDreamsync/Pods-164VeltroniaDreamsync.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30120DCC2FB705120071B4BB /* Exceptions for "164VeltroniaDreamsync" folder in "164VeltroniaDreamsync" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 30120DB92FB705100071B4BB /* 164VeltroniaDreamsync */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30120DBC2FB705100071B4BB /* 164VeltroniaDreamsync */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				30120DCC2FB705120071B4BB /* Exceptions for "164VeltroniaDreamsync" folder in "164VeltroniaDreamsync" target */,
-			);
-			path = 164VeltroniaDreamsync;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30120DB72FB705100071B4BB /* Frameworks */ = {
@@ -45,8 +179,10 @@
 		30120DB12FB705100071B4BB = {
 			isa = PBXGroup;
 			children = (
-				30120DBC2FB705100071B4BB /* 164VeltroniaDreamsync */,
+				301210852FB725A10071B4BB /* 164VeltroniaDreamsync */,
 				30120DBB2FB705100071B4BB /* Products */,
+				AA52BACE592549D33DA95C22 /* Pods */,
+				DBDCC0B68AE1F8992FFA1899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +194,281 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		301210232FB725A10071B4BB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				301210222FB725A10071B4BB /* MainTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		301210292FB725A10071B4BB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				301210242FB725A10071B4BB /* AchievementCardCell.swift */,
+				301210252FB725A10071B4BB /* FocusSessionCardCell.swift */,
+				301210262FB725A10071B4BB /* HabitCardCell.swift */,
+				301210272FB725A10071B4BB /* SettingsRowCell.swift */,
+				301210282FB725A10071B4BB /* TaskCardCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		301210312FB725A10071B4BB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3012102A2FB725A10071B4BB /* AppCard.swift */,
+				3012102B2FB725A10071B4BB /* AppDesignSystem.swift */,
+				3012102C2FB725A10071B4BB /* AppSearchBar.swift */,
+				3012102D2FB725A10071B4BB /* EmptyStateView.swift */,
+				3012102E2FB725A10071B4BB /* FilterChip.swift */,
+				3012102F2FB725A10071B4BB /* IconBadge.swift */,
+				301210302FB725A10071B4BB /* MetaTag.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		301210392FB725A10071B4BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				301210292FB725A10071B4BB /* Cells */,
+				301210312FB725A10071B4BB /* UI */,
+				301210322FB725A10071B4BB /* AchievementBannerView.swift */,
+				301210332FB725A10071B4BB /* AppBackgroundView.swift */,
+				301210342FB725A10071B4BB /* DailyGoalProgressView.swift */,
+				301210352FB725A10071B4BB /* LightTapButtonStyle.swift */,
+				301210362FB725A10071B4BB /* ShakeEffect.swift */,
+				301210372FB725A10071B4BB /* SuccessCheckmarkOverlay.swift */,
+				301210382FB725A10071B4BB /* UndoToastView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3012103B2FB725A10071B4BB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3012103A2FB725A10071B4BB /* AppExternalLink.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3012103E2FB725A10071B4BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3012103C2FB725A10071B4BB /* Color+App.swift */,
+				3012103D2FB725A10071B4BB /* Notification+App.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		301210462FB725A10071B4BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3012103F2FB725A10071B4BB /* AchievementDefinition.swift */,
+				301210402FB725A10071B4BB /* FocusSessionRecord.swift */,
+				301210412FB725A10071B4BB /* HabitGroup.swift */,
+				301210422FB725A10071B4BB /* HabitItem.swift */,
+				301210432FB725A10071B4BB /* TaskItem.swift */,
+				301210442FB725A10071B4BB /* TaskRecurrence.swift */,
+				301210452FB725A10071B4BB /* TimerPreset.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3012104D2FB725A10071B4BB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				301210472FB725A10071B4BB /* AchievementBannerManager.swift */,
+				301210482FB725A10071B4BB /* AppDataStore.swift */,
+				301210492FB725A10071B4BB /* AppDataStore+Home.swift */,
+				3012104A2FB725A10071B4BB /* AppDataStore+Productivity.swift */,
+				3012104B2FB725A10071B4BB /* FeedbackService.swift */,
+				3012104C2FB725A10071B4BB /* StatisticsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3012104E2FB725A10071B4BB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				301210392FB725A10071B4BB /* Components */,
+				3012103B2FB725A10071B4BB /* Config */,
+				3012103E2FB725A10071B4BB /* Extensions */,
+				301210462FB725A10071B4BB /* Models */,
+				3012104D2FB725A10071B4BB /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		301210512FB725A10071B4BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3012104F2FB725A10071B4BB /* FocusPresetCard.swift */,
+				301210502FB725A10071B4BB /* FocusTimerHero.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		301210552FB725A10071B4BB /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				301210512FB725A10071B4BB /* Components */,
+				301210522FB725A10071B4BB /* FocusSettingsSheet.swift */,
+				301210532FB725A10071B4BB /* FocusView.swift */,
+				301210542FB725A10071B4BB /* FocusViewModel.swift */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		301210572FB725A10071B4BB /* FocusHabits */ = {
+			isa = PBXGroup;
+			children = (
+				301210562FB725A10071B4BB /* FocusHabitsContainerView.swift */,
+			);
+			path = FocusHabits;
+			sourceTree = "<group>";
+		};
+		3012105C2FB725A10071B4BB /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				301210582FB725A10071B4BB /* AddHabitSheet.swift */,
+				301210592FB725A10071B4BB /* HabitJournalView.swift */,
+				3012105A2FB725A10071B4BB /* HabitsView.swift */,
+				3012105B2FB725A10071B4BB /* HabitsViewModel.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		301210622FB725A10071B4BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3012105D2FB725A10071B4BB /* HomeAchievementWidget.swift */,
+				3012105E2FB725A10071B4BB /* HomeGoalWidgetCard.swift */,
+				3012105F2FB725A10071B4BB /* HomeHeroBanner.swift */,
+				301210602FB725A10071B4BB /* HomeInsightWidget.swift */,
+				301210612FB725A10071B4BB /* HomeUpNextSection.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		301210642FB725A10071B4BB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				301210622FB725A10071B4BB /* Components */,
+				301210632FB725A10071B4BB /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		301210662FB725A10071B4BB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				301210652FB725A10071B4BB /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		301210682FB725A10071B4BB /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				301210672FB725A10071B4BB /* WeeklyReportView.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		3012106C2FB725A10071B4BB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				301210692FB725A10071B4BB /* PrivacyPolicyView.swift */,
+				3012106A2FB725A10071B4BB /* SettingsView.swift */,
+				3012106B2FB725A10071B4BB /* StatsAchievementsSection.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3012106E2FB725A10071B4BB /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				3012106D2FB725A10071B4BB /* PeriodStatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		301210772FB725A10071B4BB /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				3012106F2FB725A10071B4BB /* ArchivedTasksView.swift */,
+				301210702FB725A10071B4BB /* CompletedTasksView.swift */,
+				301210712FB725A10071B4BB /* SingleTaskModeView.swift */,
+				301210722FB725A10071B4BB /* TaskFilterSheet.swift */,
+				301210732FB725A10071B4BB /* TaskFormSheet.swift */,
+				301210742FB725A10071B4BB /* TasksView.swift */,
+				301210752FB725A10071B4BB /* TasksViewModel.swift */,
+				301210762FB725A10071B4BB /* TaskTemplatesSheet.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		301210782FB725A10071B4BB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				301210552FB725A10071B4BB /* Focus */,
+				301210572FB725A10071B4BB /* FocusHabits */,
+				3012105C2FB725A10071B4BB /* Habits */,
+				301210642FB725A10071B4BB /* Home */,
+				301210662FB725A10071B4BB /* Onboarding */,
+				301210682FB725A10071B4BB /* Reports */,
+				3012106C2FB725A10071B4BB /* Settings */,
+				3012106E2FB725A10071B4BB /* Stats */,
+				301210772FB725A10071B4BB /* Tasks */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3012107A2FB725A10071B4BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				301210792FB725A10071B4BB /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		301210852FB725A10071B4BB /* 164VeltroniaDreamsync */ = {
+			isa = PBXGroup;
+			children = (
+				301210232FB725A10071B4BB /* App */,
+				3012104E2FB725A10071B4BB /* Core */,
+				301210782FB725A10071B4BB /* Features */,
+				3012107A2FB725A10071B4BB /* Resources */,
+				3012107B2FB725A10071B4BB /* AppDelegate.swift */,
+				3012107C2FB725A10071B4BB /* Assets.xcassets */,
+				3012107D2FB725A10071B4BB /* ContentView.swift */,
+				3012107E2FB725A10071B4BB /* Info.plist */,
+				301210802FB725A10071B4BB /* LaunchScreen.storyboard */,
+				301210822FB725A10071B4BB /* Main.storyboard */,
+				301210832FB725A10071B4BB /* SceneDelegate.swift */,
+				301210842FB725A10071B4BB /* ViewController.swift */,
+			);
+			path = 164VeltroniaDreamsync;
+			sourceTree = "<group>";
+		};
+		AA52BACE592549D33DA95C22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC2B4063BC2B7A1964EDC0D2 /* Pods-164VeltroniaDreamsync.debug.xcconfig */,
+				96E9641D1E043DE5AE888A6D /* Pods-164VeltroniaDreamsync.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBDCC0B68AE1F8992FFA1899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E57D6E227368B6BB2C85C0C /* Pods_164VeltroniaDreamsync.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +476,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30120DCD2FB705120071B4BB /* Build configuration list for PBXNativeTarget "164VeltroniaDreamsync" */;
 			buildPhases = (
+				AAC0F83A9DE929892F100A7A /* [CP] Check Pods Manifest.lock */,
 				30120DB62FB705100071B4BB /* Sources */,
 				30120DB72FB705100071B4BB /* Frameworks */,
 				30120DB82FB705100071B4BB /* Resources */,
@@ -73,12 +485,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30120DBC2FB705100071B4BB /* 164VeltroniaDreamsync */,
-			);
 			name = 164VeltroniaDreamsync;
-			packageProductDependencies = (
-			);
 			productName = 164VeltroniaDreamsync;
 			productReference = 30120DBA2FB705100071B4BB /* 164VeltroniaDreamsync.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +506,7 @@
 				};
 			};
 			buildConfigurationList = 30120DB52FB705100071B4BB /* Build configuration list for PBXProject "164VeltroniaDreamsync" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +514,6 @@
 				Base,
 			);
 			mainGroup = 30120DB12FB705100071B4BB;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 30120DBB2FB705100071B4BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,81 +528,223 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301210862FB725A10071B4BB /* privacy_policy.md in Resources */,
+				301210872FB725A10071B4BB /* Assets.xcassets in Resources */,
+				301210892FB725A10071B4BB /* LaunchScreen.storyboard in Resources */,
+				3012108A2FB725A10071B4BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAC0F83A9DE929892F100A7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-164VeltroniaDreamsync-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30120DB62FB705100071B4BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3012108B2FB725A10071B4BB /* MainTabView.swift in Sources */,
+				3012108C2FB725A10071B4BB /* AchievementCardCell.swift in Sources */,
+				3012108D2FB725A10071B4BB /* FocusSessionCardCell.swift in Sources */,
+				3012108E2FB725A10071B4BB /* HabitCardCell.swift in Sources */,
+				3012108F2FB725A10071B4BB /* SettingsRowCell.swift in Sources */,
+				301210902FB725A10071B4BB /* TaskCardCell.swift in Sources */,
+				301210912FB725A10071B4BB /* AppCard.swift in Sources */,
+				301210922FB725A10071B4BB /* AppDesignSystem.swift in Sources */,
+				301210932FB725A10071B4BB /* AppSearchBar.swift in Sources */,
+				301210942FB725A10071B4BB /* EmptyStateView.swift in Sources */,
+				301210952FB725A10071B4BB /* FilterChip.swift in Sources */,
+				301210962FB725A10071B4BB /* IconBadge.swift in Sources */,
+				301210972FB725A10071B4BB /* MetaTag.swift in Sources */,
+				301210982FB725A10071B4BB /* AchievementBannerView.swift in Sources */,
+				301210992FB725A10071B4BB /* AppBackgroundView.swift in Sources */,
+				3012109A2FB725A10071B4BB /* DailyGoalProgressView.swift in Sources */,
+				3012109B2FB725A10071B4BB /* LightTapButtonStyle.swift in Sources */,
+				3012109C2FB725A10071B4BB /* ShakeEffect.swift in Sources */,
+				3012109D2FB725A10071B4BB /* SuccessCheckmarkOverlay.swift in Sources */,
+				3012109E2FB725A10071B4BB /* UndoToastView.swift in Sources */,
+				3012109F2FB725A10071B4BB /* AppExternalLink.swift in Sources */,
+				301210A02FB725A10071B4BB /* Color+App.swift in Sources */,
+				301210A12FB725A10071B4BB /* Notification+App.swift in Sources */,
+				301210A22FB725A10071B4BB /* AchievementDefinition.swift in Sources */,
+				301210A32FB725A10071B4BB /* FocusSessionRecord.swift in Sources */,
+				301210A42FB725A10071B4BB /* HabitGroup.swift in Sources */,
+				301210A52FB725A10071B4BB /* HabitItem.swift in Sources */,
+				301210A62FB725A10071B4BB /* TaskItem.swift in Sources */,
+				301210A72FB725A10071B4BB /* TaskRecurrence.swift in Sources */,
+				301210A82FB725A10071B4BB /* TimerPreset.swift in Sources */,
+				301210A92FB725A10071B4BB /* AchievementBannerManager.swift in Sources */,
+				301210AA2FB725A10071B4BB /* AppDataStore.swift in Sources */,
+				301210AB2FB725A10071B4BB /* AppDataStore+Home.swift in Sources */,
+				301210AC2FB725A10071B4BB /* AppDataStore+Productivity.swift in Sources */,
+				301210AD2FB725A10071B4BB /* FeedbackService.swift in Sources */,
+				301210AE2FB725A10071B4BB /* StatisticsService.swift in Sources */,
+				301210AF2FB725A10071B4BB /* FocusPresetCard.swift in Sources */,
+				301210B02FB725A10071B4BB /* FocusTimerHero.swift in Sources */,
+				301210B12FB725A10071B4BB /* FocusSettingsSheet.swift in Sources */,
+				301210B22FB725A10071B4BB /* FocusView.swift in Sources */,
+				301210B32FB725A10071B4BB /* FocusViewModel.swift in Sources */,
+				301210B42FB725A10071B4BB /* FocusHabitsContainerView.swift in Sources */,
+				301210B52FB725A10071B4BB /* AddHabitSheet.swift in Sources */,
+				301210B62FB725A10071B4BB /* HabitJournalView.swift in Sources */,
+				301210B72FB725A10071B4BB /* HabitsView.swift in Sources */,
+				301210B82FB725A10071B4BB /* HabitsViewModel.swift in Sources */,
+				301210B92FB725A10071B4BB /* HomeAchievementWidget.swift in Sources */,
+				301210BA2FB725A10071B4BB /* HomeGoalWidgetCard.swift in Sources */,
+				301210BB2FB725A10071B4BB /* HomeHeroBanner.swift in Sources */,
+				301210BC2FB725A10071B4BB /* HomeInsightWidget.swift in Sources */,
+				301210BD2FB725A10071B4BB /* HomeUpNextSection.swift in Sources */,
+				301210BE2FB725A10071B4BB /* HomeView.swift in Sources */,
+				301210BF2FB725A10071B4BB /* OnboardingView.swift in Sources */,
+				301210C02FB725A10071B4BB /* WeeklyReportView.swift in Sources */,
+				301210C12FB725A10071B4BB /* PrivacyPolicyView.swift in Sources */,
+				301210C22FB725A10071B4BB /* SettingsView.swift in Sources */,
+				301210C32FB725A10071B4BB /* StatsAchievementsSection.swift in Sources */,
+				301210C42FB725A10071B4BB /* PeriodStatsView.swift in Sources */,
+				301210C52FB725A10071B4BB /* ArchivedTasksView.swift in Sources */,
+				301210C62FB725A10071B4BB /* CompletedTasksView.swift in Sources */,
+				301210C72FB725A10071B4BB /* SingleTaskModeView.swift in Sources */,
+				301210C82FB725A10071B4BB /* TaskFilterSheet.swift in Sources */,
+				301210C92FB725A10071B4BB /* TaskFormSheet.swift in Sources */,
+				301210CA2FB725A10071B4BB /* TasksView.swift in Sources */,
+				301210CB2FB725A10071B4BB /* TasksViewModel.swift in Sources */,
+				301210CC2FB725A10071B4BB /* TaskTemplatesSheet.swift in Sources */,
+				301210CD2FB725A10071B4BB /* AppDelegate.swift in Sources */,
+				301210CE2FB725A10071B4BB /* ContentView.swift in Sources */,
+				301210CF2FB725A10071B4BB /* SceneDelegate.swift in Sources */,
+				301210D02FB725A10071B4BB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		301210802FB725A10071B4BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3012107F2FB725A10071B4BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		301210822FB725A10071B4BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301210812FB725A10071B4BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		30120DCE2FB705120071B4BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2B4063BC2B7A1964EDC0D2 /* Pods-164VeltroniaDreamsync.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 164VeltroniaDreamsync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Veltronia Dreamsync";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-64VeltroniaDreamsync";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sud.v3ltr0n15dr36m;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		30120DCF2FB705120071B4BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E9641D1E043DE5AE888A6D /* Pods-164VeltroniaDreamsync.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 164VeltroniaDreamsync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Veltronia Dreamsync";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-64VeltroniaDreamsync";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sud.v3ltr0n15dr36m;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

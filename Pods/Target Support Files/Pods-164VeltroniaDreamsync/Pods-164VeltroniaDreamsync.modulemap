@@ -1,0 +1,6 @@
+framework module Pods_164VeltroniaDreamsync {
+  umbrella header "Pods-164VeltroniaDreamsync-umbrella.h"
+
+  export *
+  module * { export * }
+}
