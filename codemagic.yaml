@@ -8,7 +8,7 @@ workflows:
           XCODE_WORKSPACE: "164VeltroniaDreamsync.xcworkspace"
           XCODE_SCHEME: "164VeltroniaDreamsync"
           BUNDLE_ID: "com.sud.v3ltr0n15dr36m"
-          EXTENSION_BUNDLE_ID: "com.hal.dfrh80sl93s.NotificationServiceExtension"
+          EXTENSION_BUNDLE_ID: "com.sud.v3ltr0n15dr36m.NotificationServiceExtension"
           APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2
